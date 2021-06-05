@@ -1,0 +1,42 @@
+.container-form-center{
+	justify-content: center;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+.container-content{
+	justify-content: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.form-generic{
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	background-color: #404040;
+	color: white;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+
+nav li:hover{
+	background-color: #737373;
+}
